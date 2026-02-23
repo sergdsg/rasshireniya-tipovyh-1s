@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8b8fe858-7b1d-4331-ac8c-4d52d1fb0532" extendedConfigurationObject="c3a7e7b7-aaff-4ddd-806e-922d3068da02">
+  <name>НадписьПредупрежденияЦвет</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:StyleItemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <type>Checked</type>
+  </extension>
+</mdclass:StyleItem>

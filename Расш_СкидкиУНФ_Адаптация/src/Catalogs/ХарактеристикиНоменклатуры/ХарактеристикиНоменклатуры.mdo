@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9a4f9625-bf8b-43b8-8947-63ea7b75b889" extendedConfigurationObject="0b18a281-0eaf-4722-8e1f-b9cc0be808ef">
+  <producedTypes>
+    <objectType typeId="a72d2754-2877-4860-af36-da77a7e8cbf8" valueTypeId="6b4c5e32-c3c7-4c87-8e33-0e0458226b54"/>
+    <refType typeId="c7a9fab0-f79f-4226-80b5-ba6af2849fa7" valueTypeId="206c933b-31e5-4c57-a6b8-ebc133d4e2bb"/>
+    <selectionType typeId="47d28387-26d0-4e20-b86e-97f57f35c928" valueTypeId="f4f570e5-cf4f-416d-a936-590ec4eb957b"/>
+    <listType typeId="0ba1aba3-477c-42ff-8932-da19954a24d7" valueTypeId="ab4101db-7a8b-4979-9c85-e815bb206103"/>
+    <managerType typeId="1e55ac14-47f9-4121-8ad3-2ecc8be8c454" valueTypeId="2c0db26d-aa44-452c-a8d7-172f712444fb"/>
+  </producedTypes>
+  <name>ХарактеристикиНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <owners>Checked</owners>
+  </extension>
+  <owners>Catalog.Номенклатура</owners>
+  <owners>Catalog.КатегорииНоменклатуры</owners>
+  <attributes uuid="5c80eccd-137c-4a08-a8db-f83b83ee0f85" extendedConfigurationObject="67374712-4ff1-4ea0-852a-112d44714b71">
+    <name>Недействителен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

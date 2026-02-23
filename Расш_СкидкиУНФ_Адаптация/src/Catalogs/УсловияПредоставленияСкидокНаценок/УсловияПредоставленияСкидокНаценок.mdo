@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="04802b63-cf27-4062-b760-b42bcf6fadae" extendedConfigurationObject="50d7c5f6-dac4-432a-8126-edc031f87c34">
+  <producedTypes>
+    <objectType typeId="30641af7-b2c9-4fdb-9fb3-347a8619d7b1" valueTypeId="161b65ec-796a-42d7-bfdb-821e32275ca7"/>
+    <refType typeId="83067d2f-a81b-422b-8974-aaa6f736812c" valueTypeId="efd53762-c852-42b0-bffd-bf5094a26a54"/>
+    <selectionType typeId="df980343-df3b-40d9-ac15-4904f5aa46b9" valueTypeId="75493990-a8cc-41fb-b7ee-9e5c456fc12d"/>
+    <listType typeId="0965e17f-f947-4454-9f32-93fb68c5e672" valueTypeId="0d5adc38-2c9d-4139-94fc-0d6b23662b54"/>
+    <managerType typeId="e013f2c2-2d36-486c-9ff9-8adbd3533e97" valueTypeId="374ccd7b-cdc3-4cab-a213-652da1bd3b0b"/>
+  </producedTypes>
+  <name>УсловияПредоставленияСкидокНаценок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="a0ae7101-2004-47f3-8008-cec74c7f0f5e" extendedConfigurationObject="6e2eddc8-cdf2-44e3-a80e-5efdc5f26ba9">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

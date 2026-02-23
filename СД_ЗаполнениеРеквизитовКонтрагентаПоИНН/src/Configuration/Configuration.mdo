@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="20bac9ef-33e6-43d9-a186-1c87df64a4a1">
+  <name>СД_ЗаполнениеРеквизитовКонтрагентаПоИНН_УНФ_3_0</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение реквизитов контрагента по ИНН УНФ 3.0</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="d7808d71-e64a-44a4-972c-7a41e62af774"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="1b2ae322-2a72-4a0b-9347-ea6a886ce85b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="e6dfce9e-5f6a-4bec-bd6b-9f3811bee85d"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="53f4173b-4bf2-4733-82a4-86089913bac4"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="35bd2ceb-caa7-4d11-9b28-3290eb38ac89"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="f618e571-4fa8-47ef-8c34-9cbce7692184"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="33d7b8eb-8d40-4510-a5bb-0847cf95a67d"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>СД_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.СД_ОсновнаяРоль</defaultRoles>
+  <vendor>Дербенцев С.Г.</vendor>
+  <version>1.0.0.0</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <languages uuid="5b6e9d05-6257-4e91-a7b0-724b9379f5b4" extendedConfigurationObject="af1b61ff-d1b9-4053-ad85-8259b6626adc">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <styleItems>StyleItem.ТекстВторостепеннойНадписи</styleItems>
+  <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
+  <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
+  <commonPictures>CommonPicture.ИсторияИзменений</commonPictures>
+  <commonPictures>CommonPicture.УстановитьСвязь</commonPictures>
+  <commonPictures>CommonPicture.РазорватьСвязь</commonPictures>
+  <commonPictures>CommonPicture.Органайзер</commonPictures>
+  <roles>Role.СД_ОсновнаяРоль</roles>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <enums>Enum.ПолФизическогоЛица</enums>
+  <enums>Enum.СпособыЗачетаИРаспределенияПлатежей</enums>
+</mdclass:Configuration>

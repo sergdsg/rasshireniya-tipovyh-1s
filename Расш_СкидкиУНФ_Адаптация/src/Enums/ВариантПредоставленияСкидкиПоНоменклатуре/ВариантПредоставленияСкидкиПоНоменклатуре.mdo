@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="43c4356d-68f5-48c6-9958-c648a6270c33" extendedConfigurationObject="7fd28930-1947-44ca-a64b-addb44633e7b">
+  <producedTypes>
+    <refType typeId="c1a7f361-9737-469c-9521-5e71bb4ec225" valueTypeId="4688c111-233a-42a4-9512-336b5c17077d"/>
+    <listType typeId="917791e7-bb50-4e38-a3ed-b640f4787239" valueTypeId="f9a82a6b-893a-4f3b-9120-3cfd40739c11"/>
+    <managerType typeId="8a226293-f60e-4b33-9697-b5059d27c2a3" valueTypeId="67e52adb-0354-469f-843a-c04d9d32b565"/>
+  </producedTypes>
+  <name>ВариантПредоставленияСкидкиПоНоменклатуре</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="13ed02c7-a3cd-426e-abc1-c974e827029f" extendedConfigurationObject="c8ccde44-5c79-4001-bd5a-087383345656">
+    <name>ПоНоменклатуре</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="d45b24e4-618d-494b-9063-564dc55130a4" extendedConfigurationObject="3deeba12-9b41-49e7-a8c2-347e3c11f2c3">
+    <name>ПоСегментуНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

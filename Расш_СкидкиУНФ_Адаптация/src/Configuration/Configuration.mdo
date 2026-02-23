@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c14e63e3-f838-4831-91d3-806b7028b79b">
+  <name>Расш_Скидки_УНФ_3_0</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скидки ( УНФ 3.0, адаптация)</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <modalityUseMode>Checked</modalityUseMode>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="393fbc32-6ca8-4231-b2f4-e35512079561"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="f3bfe69e-d2f1-4fdd-bba1-038d98f75eb3"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="258cd683-f8a9-4626-93ea-29a5abe45ac4"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="3a0242cd-8a89-4065-9b0a-156f3d64eee1"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="9431c797-51b8-41b0-9f48-1d0e933fc4c0"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e1574541-056a-41c4-a585-d6f0809f7d87"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="8f84829f-2446-4542-9a57-549ea213b7c4"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>Скидки_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.Скидки_ОсновнаяРоль</defaultRoles>
+  <vendor>Разработчик</vendor>
+  <version>1.0.0.0</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <languages uuid="da451d70-1a30-449e-ad2a-0ab126c795ec" extendedConfigurationObject="af1b61ff-d1b9-4053-ad85-8259b6626adc">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <styleItems>StyleItem.ФонУправляющегоПоля</styleItems>
+  <styleItems>StyleItem.НадписьПредупрежденияЦвет</styleItems>
+  <roles>Role.Скидки_ОсновнаяРоль</roles>
+  <catalogs>Catalog.УсловияПредоставленияСкидокНаценок</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
+  <catalogs>Catalog.КатегорииНоменклатуры</catalogs>
+  <enums>Enum.Периодичность</enums>
+  <enums>Enum.ВидыОплатСерверЛояльности</enums>
+  <enums>Enum.ВариантПредоставленияСкидкиПоНоменклатуре</enums>
+</mdclass:Configuration>

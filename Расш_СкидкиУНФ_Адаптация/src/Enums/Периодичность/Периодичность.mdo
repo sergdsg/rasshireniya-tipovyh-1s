@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d9d4262b-7af6-4384-b9b3-47099e4ed120" extendedConfigurationObject="70b1e79e-6d89-4577-b3d3-2578d976c69e">
+  <producedTypes>
+    <refType typeId="02270f0d-21a9-45e9-98a5-fc76281869cd" valueTypeId="120a49e9-60cd-422f-951f-f8a55816349f"/>
+    <listType typeId="3508c964-5770-4b3c-b52e-2fdb793ad425" valueTypeId="e41c4054-29c9-4fee-a6c3-16825e88a8a4"/>
+    <managerType typeId="bf0d05eb-69c0-424c-9184-70e05355d4cb" valueTypeId="e0626208-e175-45a9-b132-9b49977e5f0b"/>
+  </producedTypes>
+  <name>Периодичность</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="de687903-9951-46f0-b8bd-191a9a351db2" extendedConfigurationObject="fe152b63-f6d3-4c8b-8135-5312e16ca95f">
+    <name>Месяц</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="3347a93d-c382-446f-813d-58dbea926d4e" extendedConfigurationObject="cd782aff-ea9b-4103-8f12-603ef7fd978c">
+    <name>Квартал</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="a142bf78-4187-4391-849b-ffc2d30972d4" extendedConfigurationObject="10b30131-35ac-469e-aa8c-f87f5d09059b">
+    <name>Год</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

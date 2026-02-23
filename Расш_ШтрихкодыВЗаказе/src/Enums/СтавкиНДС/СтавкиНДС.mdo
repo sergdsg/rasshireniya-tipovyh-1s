@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="11db18a3-4727-46f0-a478-e930029d90fd" extendedConfigurationObject="8734770e-94d9-404c-ace7-bcae04a163ca">
+  <producedTypes>
+    <refType typeId="53e62da2-4db9-496c-aae9-a7e0bda59084" valueTypeId="3c3a4b66-e969-4d5b-b728-c2c9206e1ad8"/>
+    <listType typeId="4c7ca241-46fc-49fa-a6d5-51478c97afc1" valueTypeId="eaec93d6-965f-4f62-9a04-df63895b73ba"/>
+    <managerType typeId="5404f3cc-dcfa-47d9-b1d3-09406ca0750b" valueTypeId="aa32de16-1849-4c71-88db-c541586dd215"/>
+  </producedTypes>
+  <name>СтавкиНДС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>
